@@ -1,0 +1,129 @@
+
+.calculadora {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    padding: 6%;
+    width: 60%;
+    background: rgb(236, 236, 236);
+    border: 1px solid black;
+}
+
+button {
+    color: rgb(0, 0, 0);
+    border: transparent;
+    transition: .4s;
+
+}
+
+.red {
+    color: black;
+    background: rgba(0, 0, 0, 0.041);
+}
+
+
+button:hover {
+    background: rgba(0, 0, 0, 0.226);
+}
+
+.equals {
+    background: rgba(255, 187, 0, 0.479);
+}
+
+.equals:hover {
+    background: rgba(255, 187, 0, 0.74);
+}
+
+.mc, .mr, .ms, .mplus {
+    background: rgba(0, 0, 0, 0.048);
+    border: 1px solid transparent;
+}
+.mc:hover , .mr:hover , .ms:hover , .mplus:hover {
+    background: rgba(0, 0, 0, 0.288);
+
+}
+
+.form .pantalla {
+    width: 100%;
+}
+
+.form .pantalla input {
+    background: rgb(209, 208, 208);
+    width: 100%;
+    font-size: 30px;
+    text-align: right;
+    color: rgb(13, 13, 13);
+    border: none;
+    height: 100px;
+}
+
+.form .button {
+    width: 100%;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.form .button input {
+    background: rgb(220, 220, 220);
+    width: 10%;
+    height: 15px;
+    font-size: 19px;
+    color: rgb(10, 10, 10);
+    position: relative;
+    top: 6px;
+    border: none;
+}
+
+.form button {
+    width: 15%;
+    height: 15%;
+    margin: 10px;
+    border: none;
+}
+
+.form .backspace {
+    width: 35%;
+    font-size: 18px;
+
+}
+
+
+
+.lista {
+    width: 40%;
+    padding: 2% 8%;
+}
+
+.lista p.texto {
+    border-left: 5px solid #000;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .calculadora {
+        display: block;
+    }
+
+    .calculadora .form {
+        width: 100%;
+    }
+
+    .calculadora .lista {
+        margin-top: 50px;
+        width: 100%;
+    }
+
+
+    .calculadora .form button {
+        font-size: 16px;
+    }
+
+}

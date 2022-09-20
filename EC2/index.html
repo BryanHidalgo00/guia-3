@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v5.13.1/css/pro.min.css">
+    <link rel="stylesheet" href="./calculadora.css">
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+    <title>Ejercicio complementario 2</title>
+</head>
+<body>
+    
+    <section>
+        <h1>Ejercicio complementario 2 Calculadora con JS</h1>
+        <div class="calculadora">
+            <div class="form">
+                <div class="pantalla">
+                    <input type="text" class="inputOpc" readonly value="0">
+                </div>
+                <div class="button">
+                    <input  type="text" class="alt" readonly> 
+                    <button class="backspace red"><i class="fal fa-backspace"></i></button>
+                    <button class="ce red">CE</button>
+                    <button class="c red">C</button>
+                </div>
+                <div class="button">
+                    <button class="mc red">MC</button>
+                    <button class="num" value="7">7</button>
+                    <button class="num" value="8">8</button>
+                    <button class="num" value="9">9</button>
+                    <button class="division red">/</button>
+                    <button class="sqrt red">sqrt</button>
+                </div>
+                <div class="button">
+                    <button class="mr red">MR</button>
+                    <button class="num" value="4">4</button>
+                    <button class="num" value="5">5</button>
+                    <button class="num" value="6">6</button>
+                    <button class="mult red">x</button>
+                    <button class="mod">%</button>
+                </div>
+                <div class="button">
+                    <button class="ms red">MS</button>
+                    <button class="num" value="1">1</button>
+                    <button class="num" value="2">2</button>
+                    <button class="num" value="3">3</button>
+                    <button class="minus red">-</button>
+                    <button class="inv">1/x</button>
+                </div>
+                <div class="button">
+                    <button class="mplus red">M+</button>
+                    <button class="num" value="0">0</button>
+                    <button class="cuadrado">x&sup2;</button>
+                    <button class="num" id="decimal" value=".">.</button>
+                    <button class="plus red">+</button>
+                    <button class="equals red">=</button>
+                </div>
+            </div>
+ 
+        </div>
+    </section>
+    <div class="espacio"></div>
+    <script src="./functions.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
